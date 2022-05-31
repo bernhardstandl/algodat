@@ -13,6 +13,7 @@ In diesem Repository werden Python Snippets zur Lehrveranstaltung Algorithmen un
 ## Zeitmessung
 - Vorlage (Zeitmessung.py)
 - Bubblesort (Zeitmessung_BubbleSort.py)
+- Visualisierung Bubble Sort (Zeitmessung_Visualisierung_Bubble.py)
 
 ## Datenstrukturen
 - Listen/Arrays mit Zeitmessung (Liste_Array_Zeitmessung.py)
