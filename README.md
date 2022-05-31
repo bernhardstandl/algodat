@@ -18,3 +18,4 @@ In diesem Repository werden Python Snippets zur Lehrveranstaltung Algorithmen un
 
 ## Datenstrukturen
 - Listen/Arrays mit Zeitmessung (Liste_Array_Zeitmessung.py)
+- Operationen auf Listen/Arrays ([ArrayListe_Operationen.py])
