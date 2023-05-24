@@ -24,9 +24,7 @@ for i in range(10,1000):
 
     
     start = time.time() #Stoppuhr Start
-
-    sorted_arr = quicksort(Liste)
-
+    quicksort(Liste) #Ausführung Quicksort
     ende = time.time() #Stoppuhr Ende
     
     gesamt = ende-start ##Differenz Start/Stopp
