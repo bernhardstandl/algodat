@@ -37,7 +37,7 @@ plt.plot(zeit)
 plt.show()
 ```
 
-Quick-Sort
+Insertion-Sort
 ```python
 #Zeitmessung Insertion Sort mit Visualisierung#
 #####Algorithmen und Datenstrukturen #####
