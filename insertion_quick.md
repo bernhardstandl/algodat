@@ -11,7 +11,7 @@ zeit = [] #Liste für die Messungen
 
 
 for a in range(10,2000):
-    Liste = np.random.randint(low = 0, high = 112500, size = i) #Liste mit Werten von 1-1000 mit der Länge i
+    Liste = np.random.randint(low = 0, high = 1500, size = a) #Liste mit Werten von 1-1000 mit der Länge i
 
     
     start = time.time() #Stoppuhr Start
@@ -20,7 +20,7 @@ for a in range(10,2000):
         key = Liste[i]
         j = i - 1
         while j >= 0 and Liste[j] > key:
-            arr[j + 1] = Liste[j]
+            Liste[j + 1] = Liste[j]
             j -= 1
         Liste[j + 1] = key
 
