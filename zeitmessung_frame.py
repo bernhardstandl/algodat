@@ -9,7 +9,7 @@ zeit2 = [] #Liste 2 für die Zeitmessungen
 zeit3 = [] #Liste 3 für die Zeitmessungen
 
 for i in range(10,200): #Schleife zur iterativen Erzeugung der Anzahl
-    Liste = np.random.randint(low = 0, high = 1000, size = i) #Liste mit Werten von 1-1000 mit der Länge i
+    Liste = np.random.randint(low = 0, high = 1000, size = i) #Liste mit Werten von 1-1000 mit der Länge i (Liste wird in jedem Durchlauf der Schleife länger)
     
     start = time.time() #Stoppuhr Start
     ##### Programm Start #####
